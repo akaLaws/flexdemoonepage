@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo on a responsive onepage layout in flex</title>
+
+    <link rel="stylesheet" href="style.css" >
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://kit.fontawesome.com/215b90b29c.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <header>
+        
+        <nav>
+            <p>LO</p>
+
+            <label for="menu">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </label>
+            <input id="menu" type="checkbox">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#Subscribe"><button>Subcribe</button></a></li>
+            </ul>
+        </nav>
+        <h1>Lombok</h1>
+        <p>Holistic health</p>
+        <div class="border-hr"></div>
+    </header>
+
+    <main>
+        <div class="cards" id="articles">
+            <span>
+                <h2>Latest articles</h2>
+                <div class="border-hr">
+                </div>
+            </span>
+
+            <section>
+                <img src="https://images.pexels.com/photos/1207978/pexels-photo-1207978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="plant">
+                <div class="border-hr"></div>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+            </section>
+
+            <section>
+                <img src="https://images.pexels.com/photos/11363534/pexels-photo-11363534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="plant">
+                <div class="border-hr"></div>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+            </section>
+
+            <section>
+                <img src="https://images.pexels.com/photos/2692724/pexels-photo-2692724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="plant">
+                <div class="border-hr"></div>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+            </section>
+        </div>
+
+        <div class="content" id="about">
+            <img src="https://images.pexels.com/photos/1903969/pexels-photo-1903969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="plants" >
+            <section>
+                <h2>About</h2>
+                <div class="border-hr"></div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, eius aut. Quasi ut officiis enim vero qui corporis incidunt corrupti, atque velit non, minus porro sint libero pariatur excepturi laboriosam?
+                </p>
+            </section>
+            
+        </div>
+
+        <form id="subscribe">
+            <label for="email">Subscribe</label>
+            <p>Sign up for our newsletter</p>
+            <input type="email" id="email" placeholder="email adress">
+            <button type="submit">submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <div>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+        </div>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#articles">Articles</a>
+            <a href="#Subscribe">Subscribe</a>
+        </nav>
+    </footer>
+</body>
+</html>
